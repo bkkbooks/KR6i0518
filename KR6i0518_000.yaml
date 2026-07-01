@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0518/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 菩薩行五十緣身經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0812.xml
+    old_id: T17n0812
+hash: sha256:994d1abefba817f01711ae72c71e568fb80987f8fc2d373a4983ca5a93c9bc96

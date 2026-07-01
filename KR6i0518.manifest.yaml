@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6i0518/v1
+canonical_location: https://kanripo.org/bkk/KR6i0518/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 菩薩行五十緣身經
+  identifiers:
+    alt_id:
+    - T17n0812
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0812.xml
+    old_id: T17n0812
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0518_000.yaml, hash: 'sha256:994d1abefba817f01711ae72c71e568fb80987f8fc2d373a4983ca5a93c9bc96'}
+  - {seq: 1, filename: KR6i0518_001.yaml, hash: 'sha256:5326b651b75214e11ff821ba4c911d473395982dfd664d603c6eaa7c90a8ac4a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0518_001.markers.yaml, hash: 'sha256:ac0387707e4cdfa108d94ac142fbccd88057c86f489a451b2476ed83ffb1d8e2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0518_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2279
+  label: 菩薩行五十緣身經
+  type: juan
+  level: 1
+hash: sha256:d4b8f802b33c404f49397925432af9f13ad00a7b2562d25d375f175c13b926ad
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
