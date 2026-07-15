@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0518/v1
 canonical_location: https://kanripo.org/bkk/KR6i0518/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 菩薩行五十緣身經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0518_000.yaml, hash: 'sha256:994d1abefba817f01711ae72c71e568fb80987f8fc2d373a4983ca5a93c9bc96'}
-  - {seq: 1, filename: KR6i0518_001.yaml, hash: 'sha256:9f3377fa16127aab792a0cf8aab27d19f2544109377803774780067a627f5d4a'}
+  - {seq: 1, filename: KR6i0518_001.yaml, hash: 'sha256:98e7451ab2cfe9e7e00ffeb20dacebe4eb7be7fb417d035183eb4766fc29e8ef'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0518_000.markers.yaml, hash: 'sha256:6ef472c07885978216828647bed7a204b1da808c2629f2e98638319813cc0b57'}
-  - {seq: 1, role: markers, filename: assets/KR6i0518_001.markers.yaml, hash: 'sha256:bb6cf94ca7b26ae4127cd19aaa3df567b2fea7a2dad38eee085c036a09a5a0b4'}
+  - {seq: 1, role: markers, filename: assets/KR6i0518_001.markers.yaml, hash: 'sha256:3f1fbaf4ff0c69d3fd8292a512b00c23428181f34015749b7817980c5e4054ad'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 菩薩行五十緣身經
   type: juan
   level: 1
-hash: sha256:d2cb8115d5da2c15c9cbdd56a824df7fc5f5c8d74949eeb3432e62c898da0561
+hash: sha256:96e49ad5134452ba0c8d79e419fc0ac545830bc42f243c2b058ba80c6f9dedad
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
